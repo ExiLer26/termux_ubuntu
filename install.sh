@@ -80,7 +80,7 @@ bash <(curl -s https://raw.githubusercontent.com/ExiLer26/termux_ubuntu/main/ubu
     ;;
          "ubuntu23.10")
          mkdir ubuntu23.10 ; cd ubuntu23.10 ; 
-bash <(curl -s https://raw.githubusercontent.com/ExiLer26/termux_ubuntu/main/ubuntu2310.sh) -y ;  wget https://raw.githubusercontent.com/ExiLer26/termux_ubuntu/main/update.sh ; mv update.sh ubuntu-fs/root/ ; chmod 777 ubuntu-fs/root/update.sh ; chmod 777 startubuntu.sh ; clear ; ./startubuntu.sh
+bash <(curl -s https://raw.githubusercontent.com/ExiLer26/termux_ubuntu/main/ubuntu23.10.sh) -y ;  wget https://raw.githubusercontent.com/ExiLer26/termux_ubuntu/main/update.sh ; mv update.sh ubuntu-fs/root/ ; chmod 777 ubuntu-fs/root/update.sh ; chmod 777 startubuntu.sh ; clear ; ./startubuntu.sh
     ;;
         *)
 	bash Install
