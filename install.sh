@@ -72,7 +72,7 @@ bash <(curl -s https://raw.githubusercontent.com/ExiLer26/termux_ubuntu/main/ubu
     ;;
         "ubuntu22.10")
         mkdir ubuntu22.10 ; cd ubuntu22.10 ; 
-bash <(curl -s https://raw.githubusercontent.com/ExiLer26/termux_ubuntu/main/ubuntu2210.sh) -y ;  wget https://raw.githubusercontent.com/ExiLer26/termux_ubuntu/main/update.sh ; mv update.sh ubuntu-fs/root/ ; chmod 777 ubuntu-fs/root/update.sh ; chmod 777 startubuntu.sh ; clear ; ./startubuntu.sh
+bash <(curl -s https://raw.githubusercontent.com/ExiLer26/termux_ubuntu/main/ubuntu22.10.sh) -y ;  wget https://raw.githubusercontent.com/ExiLer26/termux_ubuntu/main/update.sh ; mv update.sh ubuntu-fs/root/ ; chmod 777 ubuntu-fs/root/update.sh ; chmod 777 startubuntu.sh ; clear ; ./startubuntu.sh
     ;;
          "ubuntu23")
          mkdir ubuntu23 ; cd ubuntu23 ; 
