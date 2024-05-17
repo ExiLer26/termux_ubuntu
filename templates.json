@@ -13,19 +13,19 @@
   "packages": [
     {
       "language": "en_us",
-      "description": "[Paper] Low hardware configuration machine use, Fast setup.",
-      "title": "Minecraft 1.12.2 Java",
+      "description": "[Break Out] Low hardware configuration machine use, Fast setup.",
+      "title": "Minecraft 1.12.2 Forge-ModPack",
       "runtime": "Java 8+",
-      "hardware": "RAM 1G+",
-      "size": "140MB",
-      "remark": "Paper Software",
-      "targetLink": "https://api.papermc.io/v2/projects/paper/versions/1.12.2/builds/1620/downloads/paper-1.12.2-1620.jar",
+      "hardware": "RAM 500M+",
+      "size": "93MB",
+      "remark": "Forge Software",
+      "targetLink": "https://mediafilez.forgecdn.net/files/2949/195/Breakout2.21Server.zip",
       "author": "mcsmanager.com",
       "setupInfo": {
-        "type": "minecraft/java",
-        "startCommand": "java -jar paper-1.12.2-1620.jar -nogui",
+        "type": "minecraft/forge",
+        "startCommand": "java -jar -Xmx500M -Xms500M forge-*.jar -nogui",
         "stopCommand": "stop",
-        "updateCommand": "",
+        "updateCommand": "java -jar forge-*-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
       }
