@@ -25,6 +25,7 @@
         "type": "minecraft/forge",
         "startCommand": "java -jar -Xmx500M -Xms500M forge-*.jar -nogui",
         "stopCommand": "stop",
+        "updateCommand": "unzip *.zip",
         "updateCommand": "java -jar forge-*-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
