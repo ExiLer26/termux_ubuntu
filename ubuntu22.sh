@@ -41,7 +41,7 @@ printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m
 fi
 
 cur=`pwd`
-mkdir -p ubuntu22
+mkdir -p $directory
 cd $directory
 printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Decompressing the ubuntu rootfs, please wait...\n"
 proot --link2symlink tar -zxf $cur/ubuntu.tar.gz --exclude='dev'||:
