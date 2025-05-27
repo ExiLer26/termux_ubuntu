@@ -2,7 +2,7 @@
 
 apt update &&
 apt upgrade -y &&
-apt install -y curl wget nano git &&
+apt install -y curl wget nano git zip unzip &&
 apt-get install software-properties-common -y && 
 apt update && 
 add-apt-repository ppa:deadsnakes/ppa -y && 
