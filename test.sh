@@ -5,7 +5,9 @@ mkdir /opt
 cd /opt/
 
 # Download Node.js 20.11. If you already have Node.js 16+ installed, ignore this step.
-curl -fsSL https://deb.nodesource.com/setup_20.x
+wget https://deb.nodesource.com/setup_20.x
+chmod 777 setup_20.x && ./setup_20.x
+rm -rf setup_20.x
 apt install -y nodejs
 
 # Prepare MCSM's installation directory
